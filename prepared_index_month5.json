@@ -1,0 +1,130 @@
+{
+  "run_label": "month5",
+  "device_col": "device_id",
+  "targets": [
+    "Motor_Temperature",
+    "MCU_Temperature"
+  ],
+  "grid_sec": 10,
+  "horizon_min": 15,
+  "class_label": "ALL",
+  "groups": [
+    {
+      "label": "ALL_all",
+      "safe": "ALL_all",
+      "file": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_month5_ALL_all.pkl",
+      "sample_csv": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_sample_month5_ALL_all.csv",
+      "inputs": [
+        "Motor_Temperature",
+        "MCU_Temperature",
+        "MCU_HighPowerVoltage",
+        "MCU_HighPowerCurrent",
+        "MCU_Motor_Speed",
+        "Torque_Command",
+        "MCU_Motor_Torque_Estimated",
+        "Traction_Torque_Avaliable",
+        "Ambient_Temprature",
+        "MCU_DTC_1",
+        "MCU_DTC_2",
+        "MCU_State",
+        "Pump_Speed",
+        "Pump_Voltage",
+        "Pump_Current",
+        "TCS_Pump_Temperature",
+        "ignition_0",
+        "ignition_1",
+        "VCU_Flag_13",
+        "VCU_Flag_42",
+        "VCU_Flag_50",
+        "VCU_Flag_51",
+        "VCU_Flag_52",
+        "VCU_Flag_70",
+        "VCU_Flag_92",
+        "VCU_Flag_OTHER",
+        "variant_12M",
+        "variant_9M"
+      ],
+      "rows": 1129497,
+      "vehicles": 20,
+      "variants": [
+        "12M",
+        "9M"
+      ]
+    },
+    {
+      "label": "ALL_12M",
+      "safe": "ALL_12M",
+      "file": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_month5_ALL_12M.pkl",
+      "sample_csv": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_sample_month5_ALL_12M.csv",
+      "inputs": [
+        "Motor_Temperature",
+        "MCU_Temperature",
+        "MCU_HighPowerVoltage",
+        "MCU_HighPowerCurrent",
+        "MCU_Motor_Speed",
+        "Torque_Command",
+        "MCU_Motor_Torque_Estimated",
+        "Traction_Torque_Avaliable",
+        "Ambient_Temprature",
+        "MCU_DTC_1",
+        "MCU_DTC_2",
+        "MCU_State",
+        "Pump_Speed",
+        "Pump_Voltage",
+        "Pump_Current",
+        "TCS_Pump_Temperature",
+        "ignition_0",
+        "ignition_1",
+        "VCU_Flag_13",
+        "VCU_Flag_42",
+        "VCU_Flag_50",
+        "VCU_Flag_51",
+        "VCU_Flag_52",
+        "VCU_Flag_70",
+        "VCU_Flag_92",
+        "VCU_Flag_OTHER"
+      ],
+      "rows": 1044126,
+      "vehicles": 10,
+      "variants": [
+        "12M"
+      ]
+    },
+    {
+      "label": "ALL_9M",
+      "safe": "ALL_9M",
+      "file": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_month5_ALL_9M.pkl",
+      "sample_csv": "/home/arvr-lab-16/Downloads/motor temperature /prepared/prepared_sample_month5_ALL_9M.csv",
+      "inputs": [
+        "Motor_Temperature",
+        "MCU_Temperature",
+        "MCU_HighPowerVoltage",
+        "MCU_HighPowerCurrent",
+        "MCU_Motor_Speed",
+        "Torque_Command",
+        "MCU_Motor_Torque_Estimated",
+        "Traction_Torque_Avaliable",
+        "Ambient_Temprature",
+        "MCU_State",
+        "Pump_Speed",
+        "Pump_Voltage",
+        "Pump_Current",
+        "TCS_Pump_Temperature",
+        "ignition_0",
+        "ignition_1",
+        "VCU_Flag_13",
+        "VCU_Flag_17",
+        "VCU_Flag_50",
+        "VCU_Flag_51",
+        "VCU_Flag_70",
+        "VCU_Flag_92",
+        "VCU_Flag_OTHER"
+      ],
+      "rows": 85371,
+      "vehicles": 10,
+      "variants": [
+        "9M"
+      ]
+    }
+  ]
+}
