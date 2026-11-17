@@ -1,0 +1,7 @@
+Run,Group,Target,Test rows,Flagged % (validation),Flagged % (test),Mean 15-min change if flagged,Mean 15-min change if normal,Hot in 15 min % if flagged,Hot in 15 min % if normal,AUC vs derating
+month5,ALL_all,Motor_Temperature,225908,3.36,3.02,0.28,0.91,5.9,10.9,
+month5,ALL_all,MCU_Temperature,225908,3.36,3.02,0.04,0.22,20.4,11.8,
+month5,ALL_12M,Motor_Temperature,208830,2.24,1.79,2.15,0.89,4.8,10.6,
+month5,ALL_12M,MCU_Temperature,208830,2.24,1.79,0.03,0.21,4.4,12.5,
+month5,ALL_9M,Motor_Temperature,17078,1.25,0.8,6.74,0.58,0.0,10.2,
+month5,ALL_9M,MCU_Temperature,17078,1.25,0.8,1.27,0.36,0.0,10.2,

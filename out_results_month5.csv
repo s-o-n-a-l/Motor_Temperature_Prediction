@@ -1,0 +1,31 @@
+Run,Group,Target,Model,RMSE_val,RMSE,MAE,R2,RMSE_hottest10pct,Settings,Train_sec,Test_rows,RMSE_unseen_vehicles,RMSE_worst_unseen_vehicle,MAE_below_target
+month5,ALL_all,Motor_Temperature,Persistence baseline,12.353,12.469,7.617,0.647,18.37,,0.0,225908,,,False
+month5,ALL_all,Motor_Temperature,Linear Regression,10.851,11.207,7.923,0.715,18.775,,0.1,225908,10.544,10.544,False
+month5,ALL_all,Motor_Temperature,Random Forest,10.441,10.688,6.978,0.741,18.781,"{'max_depth': 8, 'min_samples_leaf': 5}",6.7,225908,10.037,10.037,False
+month5,ALL_all,MCU_Temperature,Persistence baseline,2.63,2.661,1.674,0.885,3.448,,0.0,225908,,,True
+month5,ALL_all,MCU_Temperature,Linear Regression,2.41,2.485,1.838,0.9,3.21,,0.1,225908,2.557,2.557,True
+month5,ALL_all,MCU_Temperature,Random Forest,2.386,2.394,1.667,0.907,3.266,"{'max_depth': 8, 'min_samples_leaf': 5}",6.7,225908,2.461,2.461,True
+month5,ALL_all,Motor_Temperature,Persistence baseline (LSTM rows),11.171,11.757,6.866,0.7,18.053,,0.0,126980,,,False
+month5,ALL_all,Motor_Temperature,LSTM,9.405,9.619,5.923,0.799,17.606,"window=90 steps (15 min), units=128, epochs used=11, trained on 200000 windows",1878.3,126980,,,False
+month5,ALL_all,MCU_Temperature,Persistence baseline (LSTM rows),2.366,2.474,1.469,0.901,3.217,,0.0,126980,,,True
+month5,ALL_all,MCU_Temperature,LSTM,2.087,2.176,1.354,0.923,2.996,"window=90 steps (15 min), units=128, epochs used=11, trained on 200000 windows",1878.3,126980,,,True
+month5,ALL_12M,Motor_Temperature,Persistence baseline,12.787,12.918,8.043,0.63,18.711,,0.0,208830,,,False
+month5,ALL_12M,Motor_Temperature,Linear Regression,11.172,11.585,8.241,0.702,19.379,,0.1,208830,10.638,10.638,False
+month5,ALL_12M,Motor_Temperature,Random Forest,10.824,11.054,7.396,0.729,19.435,"{'max_depth': 8, 'min_samples_leaf': 5}",6.4,208830,10.137,10.137,False
+month5,ALL_12M,MCU_Temperature,Persistence baseline,2.653,2.684,1.693,0.878,3.451,,0.0,208830,,,True
+month5,ALL_12M,MCU_Temperature,Linear Regression,2.423,2.505,1.867,0.893,3.197,,0.1,208830,2.563,2.563,True
+month5,ALL_12M,MCU_Temperature,Random Forest,2.361,2.381,1.645,0.904,3.202,"{'max_depth': 8, 'min_samples_leaf': 5}",6.5,208830,2.497,2.497,True
+month5,ALL_12M,Motor_Temperature,Persistence baseline (LSTM rows),11.369,11.867,6.962,0.698,18.053,,0.0,124465,,,False
+month5,ALL_12M,Motor_Temperature,LSTM,9.738,9.851,6.089,0.792,18.095,"window=90 steps (15 min), units=128, epochs used=12, trained on 200000 windows",2046.3,124465,,,False
+month5,ALL_12M,MCU_Temperature,Persistence baseline (LSTM rows),2.386,2.482,1.472,0.9,3.256,,0.0,124465,,,True
+month5,ALL_12M,MCU_Temperature,LSTM,2.097,2.185,1.361,0.923,3.062,"window=90 steps (15 min), units=128, epochs used=12, trained on 200000 windows",2046.3,124465,,,True
+month5,ALL_9M,Motor_Temperature,Persistence baseline,3.769,4.029,2.408,0.93,6.081,,0.0,17078,,,True
+month5,ALL_9M,Motor_Temperature,Linear Regression,3.552,3.767,2.463,0.939,6.051,,0.0,17078,2.876,2.876,True
+month5,ALL_9M,Motor_Temperature,Random Forest,4.569,4.628,3.329,0.908,7.669,"{'max_depth': 8, 'min_samples_leaf': 5}",0.5,17078,2.982,2.982,True
+month5,ALL_9M,MCU_Temperature,Persistence baseline,2.321,2.368,1.449,0.936,3.333,,0.0,17078,,,True
+month5,ALL_9M,MCU_Temperature,Linear Regression,2.199,2.181,1.479,0.946,3.236,,0.0,17078,1.84,1.84,True
+month5,ALL_9M,MCU_Temperature,Random Forest,2.717,2.775,2.016,0.912,4.302,"{'max_depth': 8, 'min_samples_leaf': 5}",0.6,17078,1.903,1.903,True
+month5,ALL_9M,Motor_Temperature,Persistence baseline (LSTM rows),2.795,3.194,2.124,0.929,3.184,,0.0,2515,,,True
+month5,ALL_9M,Motor_Temperature,LSTM,2.733,3.201,2.367,0.929,3.543,"window=90 steps (15 min), units=128, epochs used=11, trained on 10071 windows",88.4,2515,,,True
+month5,ALL_9M,MCU_Temperature,Persistence baseline (LSTM rows),1.756,2.015,1.336,0.93,1.798,,0.0,2515,,,True
+month5,ALL_9M,MCU_Temperature,LSTM,1.682,1.961,1.413,0.934,1.917,"window=90 steps (15 min), units=128, epochs used=11, trained on 10071 windows",88.4,2515,,,True

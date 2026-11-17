@@ -1,0 +1,7 @@
+Group,Target,Persistence baseline,LSTM,Random Forest,Linear Regression,Lowest MAE model,Lowest MAE,Below target
+ALL_12M,MCU_Temperature,1.693,1.361,1.645,1.867,LSTM,1.361,True
+ALL_12M,Motor_Temperature,8.043,6.089,7.396,8.241,LSTM,6.089,False
+ALL_9M,MCU_Temperature,1.449,1.413,2.016,1.479,LSTM,1.413,True
+ALL_9M,Motor_Temperature,2.408,2.367,3.329,2.463,LSTM,2.367,True
+ALL_all,MCU_Temperature,1.674,1.354,1.667,1.838,LSTM,1.354,True
+ALL_all,Motor_Temperature,7.617,5.923,6.978,7.923,LSTM,5.923,False

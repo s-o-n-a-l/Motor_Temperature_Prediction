@@ -1,0 +1,7 @@
+Group,Target,Model,Test MAE,Test RMSE,Baseline MAE,Baseline RMSE,RMSE vs baseline,MAE below target,Beats baseline,Test rows
+ALL_12M,MCU_Temperature,LSTM,1.361,2.185,1.472,2.482,0.88,True,True,124465
+ALL_12M,Motor_Temperature,LSTM,6.089,9.851,6.962,11.867,0.83,False,True,124465
+ALL_9M,MCU_Temperature,Linear Regression,1.479,2.181,1.449,2.368,0.921,True,True,17078
+ALL_9M,Motor_Temperature,Linear Regression,2.463,3.767,2.408,4.029,0.935,True,True,17078
+ALL_all,MCU_Temperature,LSTM,1.354,2.176,1.469,2.474,0.88,True,True,126980
+ALL_all,Motor_Temperature,LSTM,5.923,9.619,6.866,11.757,0.818,False,True,126980

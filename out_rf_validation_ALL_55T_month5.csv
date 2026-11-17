@@ -1,0 +1,9 @@
+Group,Target,Settings,RMSE_val
+ALL_55T,Motor_Temperature,"{'max_depth': 8, 'min_samples_leaf': 5}",6.899
+ALL_55T,Motor_Temperature,"{'max_depth': 14, 'min_samples_leaf': 5}",7.399
+ALL_55T,Motor_Temperature,"{'max_depth': 20, 'min_samples_leaf': 10}",7.639
+ALL_55T,Motor_Temperature,"{'max_depth': None, 'min_samples_leaf': 20}",7.318
+ALL_55T,MCU_Temperature,"{'max_depth': 8, 'min_samples_leaf': 5}",6.464
+ALL_55T,MCU_Temperature,"{'max_depth': 14, 'min_samples_leaf': 5}",7.122
+ALL_55T,MCU_Temperature,"{'max_depth': 20, 'min_samples_leaf': 10}",7.53
+ALL_55T,MCU_Temperature,"{'max_depth': None, 'min_samples_leaf': 20}",8.398

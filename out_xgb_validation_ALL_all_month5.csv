@@ -1,0 +1,7 @@
+Group,Target,Settings,Trees_chosen,RMSE_val
+ALL_all,Motor_Temperature,"{'max_depth': 4, 'learning_rate': 0.1}",79,10.595
+ALL_all,Motor_Temperature,"{'max_depth': 6, 'learning_rate': 0.1}",42,10.575
+ALL_all,Motor_Temperature,"{'max_depth': 8, 'learning_rate': 0.05, 'min_child_weight': 5}",84,10.656
+ALL_all,MCU_Temperature,"{'max_depth': 4, 'learning_rate': 0.1}",202,2.281
+ALL_all,MCU_Temperature,"{'max_depth': 6, 'learning_rate': 0.1}",102,2.283
+ALL_all,MCU_Temperature,"{'max_depth': 8, 'learning_rate': 0.05, 'min_child_weight': 5}",132,2.288
